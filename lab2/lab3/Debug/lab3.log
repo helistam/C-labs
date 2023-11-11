@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\2 курс\лабы 2 сем\c++\lab2\lab3\Source.cpp(63,11): warning C4101: res1: неиспользованная локальная переменная
+D:\2 курс\лабы 2 сем\c++\lab2\lab3\Source.cpp(87,12): warning C4101: res1: неиспользованная локальная переменная
+  lab3.vcxproj -> D:\2 курс\лабы 2 сем\c++\lab2\Debug\lab3.exe

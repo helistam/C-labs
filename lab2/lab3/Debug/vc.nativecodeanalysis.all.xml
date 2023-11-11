@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+      <FILENAME>Source.cpp</FILENAME>
+      <LINE>115</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Переполнение буфера при записи в "temp.str":  доступный для записи объем равен "temp.num*1" байт, однако записать можно только "2" байт.</DESCRIPTION>
+    <FUNCTION>String::+</FUNCTION>
+    <DECORATED>??HString@@QAE?AV0@ABV0@@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"temp" может быть равно 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "i&lt;this-&gt;num")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"i" может быть равно 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Продолжить этот цикл (предполагается "i&lt;this-&gt;num")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция записи в "temp.str[1]" (доступный для записи диапазон: от 0 до 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+      <FILENAME>Source.cpp</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Переполнение буфера при записи в "temp1":  доступный для записи объем равен "raz*1" байт, однако записать можно только "2" байт.</DESCRIPTION>
+    <FUNCTION>String::()</FUNCTION>
+    <DECORATED>??RString@@QAEPADHH@Z</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "i&lt;=index2")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"j" может быть равно 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Продолжить этот цикл (предполагается "i&lt;=index2")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция записи в "temp1[1]" (доступный для записи диапазон: от 0 до 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+      <FILENAME>Source.cpp</FILENAME>
+      <LINE>163</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Переполнение буфера при записи в "this-&gt;str":  доступный для записи объем равен "num*1" байт, однако записать можно только "k" байт.</DESCRIPTION>
+    <FUNCTION>String::+=</FUNCTION>
+    <DECORATED>??YString@@QAEAAV0@ABV0@@Z</DECORATED>
+    <FUNCLINE>140</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>142</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"num1" может быть равно 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>150</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>160</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>псевдоним</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(псевдоним) "k" получает значение "num1" (которое может быть равно 1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "j&lt;other.num")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\лабы 2 сем\c++\lab3\lab3\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция записи в "this-&gt;str[1]" (доступный для записи диапазон: от 0 до 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
