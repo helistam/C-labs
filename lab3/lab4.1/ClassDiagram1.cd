@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Clock" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAAAAAAAAAAAAAAAAAACAAAABABEAAAAAABAwA=</HashCode>
+      <FileName>Clock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Electronic" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAABACAAAAAAAAAAAAACACAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Electronic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnesTracker" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAQAAAAAAAAAAACAAAABAAAAAABAABAAA=</HashCode>
+      <FileName>FitnesTracker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mechanic" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.25" />
+    <InheritanceLine Type="Clock" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="1.062" />
+        <Point X="10" Y="1.375" />
+        <Point X="12.5" Y="1.375" />
+        <Point X="12.5" Y="2" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAIAAAAAAA=</HashCode>
+      <FileName>Mechanic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallClock" Collapsed="true">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAACAAACAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>WallClock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Watch" Collapsed="true">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAgACAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Watch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

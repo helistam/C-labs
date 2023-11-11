@@ -1,0 +1,9 @@
+﻿  menu.cpp
+  Source.cpp
+  Создание кода...
+D:\2 курс\лабы 2 сем\c++\lab4\lab4.real\List.h(90): warning C4715: List<bool>::operator[]: значение возвращается не при всех путях выполнения
+D:\2 курс\лабы 2 сем\c++\lab4\lab4.real\List.h(90): warning C4715: List<int>::operator[]: значение возвращается не при всех путях выполнения
+D:\2 курс\лабы 2 сем\c++\lab4\lab4.real\List.h(90): warning C4715: List<char>::operator[]: значение возвращается не при всех путях выполнения
+D:\2 курс\лабы 2 сем\c++\lab4\lab4.real\List.h(90): warning C4715: List<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::operator[]: значение возвращается не при всех путях выполнения
+D:\2 курс\лабы 2 сем\c++\lab4\lab4.real\List.h(90): warning C4715: List<float>::operator[]: значение возвращается не при всех путях выполнения
+  lab4.real.vcxproj -> D:\2 курс\лабы 2 сем\c++\lab4\Debug\lab4.real.exe
