@@ -1,0 +1,3 @@
+﻿  menu.cpp
+D:\2 курс\лабы 2 сем\c++\lab6c++\lab6c++\List.h(152): warning C4715: List<WallClock>::operator[]: значение возвращается не при всех путях выполнения
+  lab6c++.vcxproj -> D:\2 курс\лабы 2 сем\c++\lab6c++\Debug\lab6c++.exe
